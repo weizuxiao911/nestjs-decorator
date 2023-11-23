@@ -1,0 +1,9 @@
+redis:
+  host: 127.0.0.1
+  port: 6379
+  db: 1
+  encoding: 'utf-8'
+  connectTimeout: 30000
+  maxRetries: 60
+  maxConnections: 200
+  autoResendUnfulfilledCommands: true
